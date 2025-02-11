@@ -6,7 +6,7 @@ body {
     justify-content: center;
     background-image: url('https://cdn.pixabay.com/photo/2020/09/14/10/45/spaceship-5570682_1280.jpg');
     background-size: cover;
-    background-position: center; 
+    background-position: center;
 }
 
 
@@ -33,12 +33,15 @@ body {
     padding: 24px;
     box-sizing: border-box;
 }
-.form-login label{
+
+.form-login label {
     color: #fff;
 }
-.form-login input{
+
+.form-login input {
     padding: 6px;
     border-radius: 8px;
+    margin: 4px;
 }
 
 .container-login .button-logar {
@@ -57,21 +60,31 @@ body {
     background-color: #106de6;
     /* Cor de fundo ao passar o mouse */
     transform: scale(1);
-    
+
     /* Leve aumento de tamanho */
 }
 
-.container-link{
+.container-link {
     display: flex;
     width: 80%;
     /* background-color: aqua; */
     flex-direction: column;
     align-items: flex-start;
     justify-content: space-between;
+    margin-top: 8px;
+
 }
 
-.container-link a{
-    margin-top: 4px;
+.container-link a {
+    margin-top: 6px;
     text-decoration: none;
     color: #fff;
+}
+
+.container-link a:hover {
+    color: #0056b3;
+    /* Cor do link ao passar o mouse */
+    transform: scale(1);
+    /* Leve aumento de tamanho */
+    text-decoration: underline;
 }
